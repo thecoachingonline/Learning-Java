@@ -6,8 +6,12 @@ public class Main {
 
         double instanceAArea = instanceA.findArea();
         System.out.println(instanceAArea);
+        System.out.println(instanceA.sideLenThree);
 
         double instanceBArea = instanceB.findArea();
         System.out.println(instanceBArea);
+        System.out.println(instanceB.base);
+
+        System.out.println(Instance.numOfSides);
     }
 }
