@@ -5,5 +5,9 @@ public class Main {
         Instance instanceB = new Instance(3, 2.598, 3, 3, 3);
 
         double instanceAArea = instanceA.findArea();
+        System.out.println(instanceAArea);
+
+        double instanceBArea = instanceB.findArea();
+        System.out.println(instanceBArea);
     }
 }
